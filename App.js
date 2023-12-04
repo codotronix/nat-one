@@ -4,7 +4,10 @@ import TodosScreen from './components/screens/Todo';
 
 export default function App() {
   return (
-    <TodosScreen />
+    <>
+      {/* <StatusBar /> */}
+      <TodosScreen />
+    </>
   );
 }
 
